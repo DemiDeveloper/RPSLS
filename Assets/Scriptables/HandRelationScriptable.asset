@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22cf219d33d0af84b86945b7173734da, type: 3}
+  m_Name: HandRelationScriptable
+  m_EditorClassIdentifier: 
+  handClassDictionary:
+    m_keys: 0000000001000000020000000300000004000000
+    m_values:
+    - handSprite: {fileID: -2182124076254010665, guid: b9d447b7ae631a0408eb3b00b27d689d, type: 3}
+      bGSprite: {fileID: -2615874204119335, guid: b3f95f4d04af221479d6d508e5745bb8, type: 3}
+      handRelation:
+        m_keys: 0200000003000000
+        m_values:
+        - Rock <color={0}>Crushed</color> Scissor
+        - Rock<color={0}> Crushed</color> Lizard
+      handDisplayName: Rock
+    - handSprite: {fileID: -1469909079130451432, guid: 1199e88819f040949a1c562e189e683b, type: 3}
+      bGSprite: {fileID: -6099873399732076034, guid: 31df01c5e5103374cbfc0ccb4b3262b4, type: 3}
+      handRelation:
+        m_keys: 0000000004000000
+        m_values:
+        - Paper <color={0}>Covered</color> Rock
+        - Paper <color={0}>Disapproved</color> Spock
+      handDisplayName: Paper
+    - handSprite: {fileID: -4533766093500586654, guid: 4556ee463af484845a2ca9e2a99b4569, type: 3}
+      bGSprite: {fileID: -6920274672158514710, guid: 8e398d6e82764dd4cb877e7105113aac, type: 3}
+      handRelation:
+        m_keys: 0100000003000000
+        m_values:
+        - Scissor <color={0}>Cut </color>Paper
+        - Scissor<color={0}> Decapitated </color>Lizardd
+      handDisplayName: Scissor
+    - handSprite: {fileID: -6383312658857005041, guid: f607f3a8e4f56204197fd36a44f8bade, type: 3}
+      bGSprite: {fileID: 8166710274925509176, guid: 339c8e60649065f46a405ed1217cf438, type: 3}
+      handRelation:
+        m_keys: 0100000004000000
+        m_values:
+        - Lizard <color={0}> Ate </color>Paper
+        - Lizard <color={0}>Poisoned </color>Spok
+      handDisplayName: Lizard
+    - handSprite: {fileID: -2989607110755474620, guid: 9c92c4c7c8cb34b41abc2bbc8e9d01cd, type: 3}
+      bGSprite: {fileID: -8425141836431729757, guid: 972a408af95808a4d81e5bb01a550f2a, type: 3}
+      handRelation:
+        m_keys: 0000000002000000
+        m_values:
+        - Spock<color={0}> Vaporized </color>Rock
+        - Spock <color={0}>Smashed </color>Scissor
+      handDisplayName: Spock
